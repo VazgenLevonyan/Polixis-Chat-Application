@@ -34,7 +34,7 @@ public class UserResource {
     }
 
     @GET
-   @PermitAll
+    @RolesAllowed("ADMIN")
     @Path("/all")
     public Response getAll() {
         List<User> allUsers = userService.getAllUsers();
@@ -46,7 +46,7 @@ public class UserResource {
     @PUT
     @RolesAllowed("ADMIN")
     @Path("/update")
-    public Response update(UpdateUserDto updateUserDto){
+    public Response update(UpdateUserDto updateUserDto) {
         CreateUserResponseDto createUserResponseDto = userService.updateUser(updateUserDto);
         return Response.status(Response.Status.OK)
                 .entity(createUserResponseDto)
