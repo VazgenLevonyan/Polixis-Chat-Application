@@ -1,6 +1,6 @@
 package com.polixis.repository;
 
-import com.polixis.entity.Message;
+import com.polixis.model.Message;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 

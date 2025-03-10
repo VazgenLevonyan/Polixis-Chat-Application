@@ -4,7 +4,7 @@ import com.polixis.dto.user.CreateUserResponseDto;
 import com.polixis.dto.user.GetAllUsersResponseDto;
 import com.polixis.dto.user.GetUserResponseDto;
 import com.polixis.dto.user.UpdateUserDto;
-import com.polixis.entity.User;
+import com.polixis.model.User;
 import com.polixis.exception.NotFoundException;
 import com.polixis.repository.UserRepository;
 import com.polixis.service.UserService;

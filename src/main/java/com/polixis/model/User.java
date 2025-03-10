@@ -1,4 +1,4 @@
-package com.polixis.entity;
+package com.polixis.model;
 
 import jakarta.json.bind.annotation.JsonbTransient;
 import jakarta.persistence.*;

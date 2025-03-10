@@ -1,7 +1,7 @@
 package com.polixis.service;
 
 import com.polixis.dto.usersgroup.*;
-import com.polixis.entity.UsersGroup;
+import com.polixis.model.UsersGroup;
 
 public interface UsersGroupService {
 

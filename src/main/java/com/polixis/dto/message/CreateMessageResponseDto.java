@@ -1,6 +1,6 @@
 package com.polixis.dto.message;
 
-import com.polixis.entity.Message;
+import com.polixis.model.Message;
 
 import java.time.LocalDateTime;
 

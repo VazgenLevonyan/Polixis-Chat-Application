@@ -1,4 +1,4 @@
-package com.polixis.entity;
+package com.polixis.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

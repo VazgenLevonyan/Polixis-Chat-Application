@@ -3,7 +3,7 @@ package com.polixis.service.impl;
 import com.polixis.dto.user.CreateUserRequestDto;
 import com.polixis.dto.user.CreateUserResponseDto;
 import com.polixis.dto.auth.LoginRequest;
-import com.polixis.entity.User;
+import com.polixis.model.User;
 
 import com.polixis.exception.DuplicateException;
 import com.polixis.exception.InvalidCredentialsException;

@@ -2,8 +2,8 @@ package com.polixis.service.impl;
 
 import com.polixis.dto.user.CreateUserResponseDto;
 import com.polixis.dto.usersgroup.*;
-import com.polixis.entity.User;
-import com.polixis.entity.UsersGroup;
+import com.polixis.model.User;
+import com.polixis.model.UsersGroup;
 import com.polixis.exception.DuplicateException;
 import com.polixis.exception.NotFoundException;
 import com.polixis.repository.UsersGroupRepository;

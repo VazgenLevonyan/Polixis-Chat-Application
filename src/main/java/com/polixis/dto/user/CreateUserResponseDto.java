@@ -1,6 +1,6 @@
 package com.polixis.dto.user;
 
-import com.polixis.entity.User;
+import com.polixis.model.User;
 
 public class CreateUserResponseDto {
 

@@ -4,7 +4,7 @@ import com.polixis.dto.user.CreateUserResponseDto;
 import com.polixis.dto.user.GetAllUsersResponseDto;
 import com.polixis.dto.user.GetUserResponseDto;
 import com.polixis.dto.user.UpdateUserDto;
-import com.polixis.entity.User;
+import com.polixis.model.User;
 
 import java.util.List;
 
