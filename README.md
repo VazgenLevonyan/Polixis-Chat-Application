@@ -19,6 +19,19 @@ Group Management
 Users can create groups and manage their members.
 The system provides functionality to attach (add) or detach (remove) users from a group dynamically.
 
+# Configurations
+Before running the application, make sure to set the correct paths for the JWT public and private keys in the application.properties file.  
+Set the path to your public key: mp.jwt.verify.publickey.location=/path/to/your/publicKey.pem  
+Set the path to your private key:smallrye.jwt.sign.key.location=/path/to/your/privateKey.pem  
+# Important:  
+The application expects the public and private keys to be available at the specified locations. Make sure the paths are correct and the files exist at those locations.  
+For example, if you are working locally, you can use something like:  
+mp.jwt.verify.publickey.location=/home/yourusername/Desktop/Messaging System/jwt/publicKey.pem  
+smallrye.jwt.sign.key.location=/home/yourusername/Desktop/Messaging System/jwt/privateKey.pem  
+Ensure the keys are placed in the correct directory and the application can access them.
+
+
+
 # Technology Stack
 
 Java 21 
