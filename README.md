@@ -36,6 +36,7 @@ Ensure the keys are placed in the correct directory and the application can acce
 
 Java 21 
 Quarkus A lightweight Java framework   
+PostgreSQL (for database)   
 Maven (Dependency and build management)   
 JWT Authentication (Using public/private keys for security)   
 This API ensures efficient user management, secure authentication, and a flexible messaging system that supports individual, group, and broadcast messaging.
