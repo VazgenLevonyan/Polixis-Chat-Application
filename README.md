@@ -1,62 +1,28 @@
-# chat-service
+# Chat Application      
+This project is a REST API for a chat application built using Java 21, Quarkus Framework, and Maven as a build tool. 
+The system enables users to register, log in, and communicate with others through direct and group messaging.
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+# Features   
+User Registration & Authentication
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+A new user can register with the system.
+After registration, the user can log in using their credentials.
+Authentication is handled via JWT tokens, secured using a public/private key pair.
 
-## Running the application in dev mode
+Messaging System
+A user can send messages in three different ways:
+To a specific user (direct message).
+To all users (broadcast message).
+To a group of users (group chat).
 
-You can run your application in dev mode that enables live coding using:
+Group Management
+Users can create groups and manage their members.
+The system provides functionality to attach (add) or detach (remove) users from a group dynamically.
 
-```shell script
-./mvnw quarkus:dev
-```
+# Technology Stack
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
-
-## Packaging and running the application
-
-The application can be packaged using:
-
-```shell script
-./mvnw package
-```
-
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-
-```shell script
-./mvnw package -Dquarkus.package.jar.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using:
-
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
-
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/chat-service-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
-
-## Provided Code
-
-### REST
-
-Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+Java 21 
+Quarkus A lightweight Java framework   
+Maven (Dependency and build management)   
+JWT Authentication (Using public/private keys for security)   
+This API ensures efficient user management, secure authentication, and a flexible messaging system that supports individual, group, and broadcast messaging.
